@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border: 20px solid hsl(216, 50%, 16%);
+    border-radius: 10%;
+}
+
+#imgCard {
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.name {
+    color: hsl(178, 100%, 50%);
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.description {
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.541);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
